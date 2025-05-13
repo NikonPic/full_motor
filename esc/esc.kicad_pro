@@ -614,12 +614,16 @@
       "Root"
     ],
     [
-      "2ad1ad64-fffd-456d-b8ca-a9a99251bc1d",
-      "Power"
+      "807e2ab7-2da4-4c67-9db9-d43f773d56f3",
+      "Phase_A"
     ],
     [
-      "807e2ab7-2da4-4c67-9db9-d43f773d56f3",
-      "Phase"
+      "92d3a738-0b84-4d82-8cc7-aa99d9424bd3",
+      "Phase_B"
+    ],
+    [
+      "78529b9b-7f90-49a0-850e-836a6803d4c0",
+      "Phase_C"
     ]
   ],
   "text_variables": {}
