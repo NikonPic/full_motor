@@ -2947,6 +2947,42 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "https://eu.mouser.com/ProductDetail/Diodes-Incorporated/SMBJ18A-13-F?qs=gaDBXWSqsDBisKX%2FYSuPGA%3D%3D"
+			(at 90.17 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" " Diodes Incorporated "
+			(at 90.17 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "SMBJ18A-13-F "
+			(at 90.17 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "621-SMBJ18A-13-F "
+			(at 90.17 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "27c9c681-bb28-4ee4-905d-991d26104636")
 		)
@@ -5333,6 +5369,42 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "https://www.mouser.de/ProductDetail/Texas-Instruments/INA180A3IDBVT?qs=5aG0NVq1C4yYIoZxdnrAcQ%3D%3D"
+			(at 129.54 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" " Texas Instruments "
+			(at 129.54 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "INA180A3IDBVT "
+			(at 129.54 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" " 595-INA180A3IDBVT "
+			(at 129.54 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "e196ddac-4fc2-42de-a6b5-87c8fa887d2d")
 		)
@@ -5692,6 +5764,42 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.mouser.de/ProductDetail/Infineon-Technologies/IR2103STRPBF?qs=2r01AXMCG3MUNnnJnNllYQ%3D%3D"
+			(at 71.12 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" " Infineon Technologies "
+			(at 71.12 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" " IR2103STRPBF "
+			(at 71.12 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "942-IR2103STRPBF "
+			(at 71.12 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
