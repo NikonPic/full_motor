@@ -128,6 +128,339 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:Conn_01x06_Socket"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x06_Socket"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x06, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x06_Socket_1_1"
+				(polyline
+					(pts
+						(xy -1.27 5.08) (xy -0.508 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -0.508 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy -0.508 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -7.62) (xy -0.508 -7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 4.572)
+					(mid -0.5058 5.08)
+					(end 0 5.588)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 2.032)
+					(mid -0.5058 2.54)
+					(end 0 3.048)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -0.508)
+					(mid -0.5058 0)
+					(end 0 0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -3.048)
+					(mid -0.5058 -2.54)
+					(end 0 -2.032)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -5.588)
+					(mid -0.5058 -5.08)
+					(end 0 -4.572)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -8.128)
+					(mid -0.5058 -7.62)
+					(end 0 -7.112)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_ARM_SWD_TagConnect_TC2030-NL"
 			(exclude_from_sim no)
 			(in_bom no)
@@ -5877,6 +6210,16 @@
 		)
 		(uuid "b8e657f9-bb87-4c76-b8c7-602339433023")
 	)
+	(text "Bluetooth header UART"
+		(exclude_from_sim no)
+		(at 289.56 226.314 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fbe6e9f8-c988-48e7-8cfc-31afbf0cf610")
+	)
 	(junction
 		(at 121.92 223.52)
 		(diameter 0)
@@ -6300,8 +6643,8 @@
 		(uuid "4975756a-fc16-436a-b838-c79122553f75")
 	)
 	(no_connect
-		(at 60.96 205.74)
-		(uuid "5707edf2-7bb6-40e3-8ac1-9d8882cd3a20")
+		(at 294.64 246.38)
+		(uuid "5366d5e3-9207-4e39-90c5-7013ff27c1c1")
 	)
 	(no_connect
 		(at 96.52 190.5)
@@ -6328,10 +6671,6 @@
 		(uuid "aa795d9b-29cc-4305-938d-0e343f02d02d")
 	)
 	(no_connect
-		(at 60.96 170.18)
-		(uuid "ae9427ae-bd37-4e49-9718-526224ffe95d")
-	)
-	(no_connect
 		(at 60.96 195.58)
 		(uuid "b6569e78-8609-4366-b16b-8ee7641840fd")
 	)
@@ -6342,6 +6681,10 @@
 	(no_connect
 		(at 367.03 189.23)
 		(uuid "cb4f20c7-1f53-4f53-8275-acfba553e079")
+	)
+	(no_connect
+		(at 294.64 233.68)
+		(uuid "ceb29c87-008c-4efd-acbc-8c13b2837bd9")
 	)
 	(no_connect
 		(at 96.52 205.74)
@@ -6756,6 +7099,16 @@
 			(type default)
 		)
 		(uuid "2698a10f-e6e2-47ce-b752-78c7921c0add")
+	)
+	(wire
+		(pts
+			(xy 278.13 241.3) (xy 294.64 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27e7f102-2d49-4d3e-87b0-c1a739fc3282")
 	)
 	(wire
 		(pts
@@ -7329,6 +7682,16 @@
 	)
 	(wire
 		(pts
+			(xy 278.13 243.84) (xy 294.64 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cd71626-f228-4360-ac7e-abed99a93299")
+	)
+	(wire
+		(pts
 			(xy 43.18 185.42) (xy 60.96 185.42)
 		)
 		(stroke
@@ -7336,6 +7699,16 @@
 			(type default)
 		)
 		(uuid "5d6c1dd7-33b2-4d79-b742-e6f52ea5cba8")
+	)
+	(wire
+		(pts
+			(xy 278.13 236.22) (xy 294.64 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e285402-c806-44df-8bb3-1d3c2d7511e4")
 	)
 	(wire
 		(pts
@@ -7566,6 +7939,16 @@
 			(type default)
 		)
 		(uuid "79243dcd-7046-4519-bbe8-6f50a2f022f5")
+	)
+	(wire
+		(pts
+			(xy 273.05 238.76) (xy 294.64 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "792cce35-4e3d-405a-a1b0-24af3e7c27d3")
 	)
 	(wire
 		(pts
@@ -8729,6 +9112,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 170.18) (xy 60.96 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee3508fe-ddf2-43d6-a035-4bf5a7f7492d")
+	)
+	(wire
+		(pts
 			(xy 375.92 210.82) (xy 375.92 212.09)
 		)
 		(stroke
@@ -8836,6 +9229,16 @@
 			(type default)
 		)
 		(uuid "fa8cb3ed-29ad-4661-ad45-159e4cd5ec6b")
+	)
+	(wire
+		(pts
+			(xy 53.34 205.74) (xy 60.96 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faae4aad-a51b-4a15-8108-722b7110a08a")
 	)
 	(wire
 		(pts
@@ -9387,6 +9790,16 @@
 		)
 		(uuid "9613d7fa-0ffa-4a5c-a15f-252e6d89ffaa")
 	)
+	(label "TXD"
+		(at 52.07 170.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9642e389-fa59-4148-8382-3dbc580da1c0")
+	)
 	(label "MCU_SWDIO"
 		(at 123.19 185.42 180)
 		(effects
@@ -9396,6 +9809,16 @@
 			(justify right bottom)
 		)
 		(uuid "97855ad1-f66e-4c65-a68b-9ccc5f1d05ff")
+	)
+	(label "RXD"
+		(at 53.34 205.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "981e7f90-0111-4f7f-a05c-9a8e5312253e")
 	)
 	(label "VISENSE_B"
 		(at 378.46 105.41 180)
@@ -9506,6 +9929,16 @@
 			(justify left bottom)
 		)
 		(uuid "aee8ecd2-30af-43ed-a034-0f5de0b7a68a")
+	)
+	(label "RXD"
+		(at 278.13 243.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b6f083e0-bca0-4e3a-aa0c-5c8841d120cc")
 	)
 	(label "MGH_SPI1_NSS"
 		(at 198.12 175.26 0)
@@ -9626,6 +10059,16 @@
 			(justify left bottom)
 		)
 		(uuid "d590dcc1-1334-4c80-8e98-8e1fe787b9ec")
+	)
+	(label "TXD"
+		(at 278.13 241.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d5a5ebf9-605c-4b6e-bb2d-708d6e960f0a")
 	)
 	(label "PFO_OSC_IN"
 		(at 48.26 162.56 0)
@@ -10180,7 +10623,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.mouser.de/ProductDetail/Panasonic/ERA-1AEB103C?qs=6%252Bc%252B2ke79U4Rqou4jG9qiw%3D%3D"
+		(property "Link" "https://www.mouser.de/ProductDetail/SEI-Stackpole/RNCE0603BTE10K0?qs=efUn273yAhfamz7JFGXL1Q%3D%3D"
 			(at 189.23 152.4 0)
 			(effects
 				(font
@@ -10189,7 +10632,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" " Panasonic "
+		(property "MF" "SEI Stackpole "
 			(at 189.23 152.4 0)
 			(effects
 				(font
@@ -10198,7 +10641,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "ERA-1AEB103C "
+		(property "MP" "RNCE0603BTE10K0 "
 			(at 189.23 152.4 0)
 			(effects
 				(font
@@ -10207,7 +10650,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "667-ERA-1AEB103C "
+		(property "MPN" "708-RNCE0603BTE10K0 "
 			(at 189.23 152.4 0)
 			(effects
 				(font
@@ -10418,7 +10861,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.mouser.de/ProductDetail/Panasonic/ERA-1AEB103C?qs=6%252Bc%252B2ke79U4Rqou4jG9qiw%3D%3D"
+		(property "Link" "https://www.mouser.de/ProductDetail/SEI-Stackpole/RNCE0603BTE10K0?qs=efUn273yAhfamz7JFGXL1Q%3D%3D"
 			(at 46.99 138.43 0)
 			(effects
 				(font
@@ -10427,7 +10870,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" " Panasonic "
+		(property "MF" "SEI Stackpole "
 			(at 46.99 138.43 0)
 			(effects
 				(font
@@ -10436,7 +10879,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "ERA-1AEB103C "
+		(property "MP" "RNCE0603BTE10K0 "
 			(at 46.99 138.43 0)
 			(effects
 				(font
@@ -10445,7 +10888,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "667-ERA-1AEB103C "
+		(property "MPN" "708-RNCE0603BTE10K0 "
 			(at 46.99 138.43 0)
 			(effects
 				(font
@@ -10516,6 +10959,42 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 383.54 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "will not be populated and soldered by customer"
+			(at 383.54 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "-"
+			(at 383.54 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "-"
+			(at 383.54 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "-"
 			(at 383.54 83.82 0)
 			(effects
 				(font
@@ -10685,7 +11164,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SMBJ18A"
+		(property "Value" "SMBJ188A"
 			(at 38.1 56.3879 90)
 			(effects
 				(font
@@ -11988,6 +12467,123 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x06_Socket")
+		(at 299.72 238.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3b66ddb5-96fd-4857-9a0b-683dbe5bb242")
+		(property "Reference" "J5"
+			(at 300.99 238.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x06_Socket"
+			(at 283.21 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical"
+			(at 299.72 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 299.72 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated"
+			(at 299.72 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.mouser.de/ProductDetail/Preci-dip/315-87-106-41-003101?qs=j%2F3uP2fRwpm%252BBMiUbKdn5w%3D%3D"
+			(at 299.72 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" " Preci-dip "
+			(at 299.72 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "315-87-106-41-003101 "
+			(at 299.72 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "437-3158710641003101 "
+			(at 299.72 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "aba91f85-aca5-485c-9ae5-ba0ce1e42a0c")
+		)
+		(pin "3"
+			(uuid "e97f2935-796f-40b9-973b-714735a241c7")
+		)
+		(pin "1"
+			(uuid "4e4f7403-e567-4080-89ef-041e412fc2dc")
+		)
+		(pin "4"
+			(uuid "3d423a2a-adc6-4bab-a631-c0eb7c9e2cd4")
+		)
+		(pin "5"
+			(uuid "8da134ba-5e1d-458c-8478-5a77cf7e4ec4")
+		)
+		(pin "6"
+			(uuid "788f9bd8-7f8f-471d-b42e-a6b9d32f75ed")
+		)
+		(instances
+			(project ""
+				(path "/13f1217f-3729-46b2-be4b-4110232fa194"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 215.9 185.42 0)
 		(unit 1)
@@ -12284,7 +12880,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.mouser.de/ProductDetail/Panasonic/ERA-1AEB103C?qs=6%252Bc%252B2ke79U4Rqou4jG9qiw%3D%3D"
+		(property "Link" "https://www.mouser.de/ProductDetail/SEI-Stackpole/RNCE0603BTE10K0?qs=efUn273yAhfamz7JFGXL1Q%3D%3D"
 			(at 196.85 149.86 0)
 			(effects
 				(font
@@ -12293,7 +12889,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" " Panasonic "
+		(property "MF" "SEI Stackpole "
 			(at 196.85 149.86 0)
 			(effects
 				(font
@@ -12302,7 +12898,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "ERA-1AEB103C "
+		(property "MP" "RNCE0603BTE10K0 "
 			(at 196.85 149.86 0)
 			(effects
 				(font
@@ -12311,7 +12907,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "667-ERA-1AEB103C "
+		(property "MPN" "708-RNCE0603BTE10K0 "
 			(at 196.85 149.86 0)
 			(effects
 				(font
@@ -13060,6 +13656,42 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "will not be populated and soldered by customer"
+			(at 383.54 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "-"
+			(at 383.54 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "-"
+			(at 383.54 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "-"
+			(at 383.54 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "18c8fab1-8acb-44b3-9923-87bcc4eb3294")
 		)
@@ -13297,7 +13929,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.mouser.de/ProductDetail/Susumu/RG0603P-101-D-T10?qs=amGC7iS6iy8p2KCMQy1Fkw%3D%3D"
+		(property "Link" "https://www.mouser.de/ProductDetail/SEI-Stackpole/RNCE0603BTE100R?qs=efUn273yAhcgM9EQ1Aecug%3D%3D"
 			(at 135.89 215.9 0)
 			(effects
 				(font
@@ -13306,7 +13938,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" " Susumu "
+		(property "MF" " SEI Stackpole "
 			(at 135.89 215.9 0)
 			(effects
 				(font
@@ -13315,7 +13947,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "RG0603P-101-D-T10 "
+		(property "MP" " RNCE0603BTE100R "
 			(at 135.89 215.9 0)
 			(effects
 				(font
@@ -13324,7 +13956,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "754-RG0603P-101-D "
+		(property "MPN" "708-RNCE0603BTE100R "
 			(at 135.89 215.9 0)
 			(effects
 				(font
@@ -13366,7 +13998,7 @@
 				)
 			)
 		)
-		(property "Value" "NX2016SA-24M-EXS00A-CS08891"
+		(property "Value" "CS08891-24M"
 			(at 215.9 231.14 0)
 			(effects
 				(font
@@ -13491,7 +14123,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "NX2016SA-24M-EXS00A-CS08891 "
+		(property "MP" "CS08891-24M"
 			(at 199.39 236.22 0)
 			(effects
 				(font
@@ -13990,6 +14622,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 273.05 238.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62fb9b47-3018-48ac-8a84-03a499604a26")
+		(property "Reference" "#PWR0101"
+			(at 273.05 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 273.05 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 273.05 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 273.05 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c6ccc075-13ed-435a-83b7-e8155ca9c7ed")
+		)
+		(instances
+			(project "esc"
+				(path "/13f1217f-3729-46b2-be4b-4110232fa194"
+					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 346.71 203.2 0)
 		(unit 1)
@@ -14398,6 +15096,71 @@
 			(project ""
 				(path "/13f1217f-3729-46b2-be4b-4110232fa194"
 					(reference "L2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 278.13 236.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "64e7a596-c38f-4158-96c5-3fdcc6a2e353")
+		(property "Reference" "#PWR034"
+			(at 278.13 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3V3"
+			(at 278.13 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 278.13 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 278.13 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 278.13 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "25ff9d7a-7901-43df-b276-8d1c3c3e07c0")
+		)
+		(instances
+			(project "esc"
+				(path "/13f1217f-3729-46b2-be4b-4110232fa194"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -14943,7 +15706,7 @@
 				)
 			)
 		)
-		(property "Footprint" "USB4510031A"
+		(property "Footprint" "SamacSys_Parts:USB4510031A"
 			(at 314.96 287.96 0)
 			(effects
 				(font
@@ -15778,7 +16541,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.mouser.de/ProductDetail/Panasonic/ERA-1AEB103C?qs=6%252Bc%252B2ke79U4Rqou4jG9qiw%3D%3D"
+		(property "Link" "https://www.mouser.de/ProductDetail/SEI-Stackpole/RNCE0603BTE10K0?qs=efUn273yAhfamz7JFGXL1Q%3D%3D"
 			(at 198.12 125.73 0)
 			(effects
 				(font
@@ -15787,7 +16550,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" " Panasonic "
+		(property "MF" "SEI Stackpole "
 			(at 198.12 125.73 0)
 			(effects
 				(font
@@ -15796,7 +16559,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "ERA-1AEB103C "
+		(property "MP" "RNCE0603BTE10K0 "
 			(at 198.12 125.73 0)
 			(effects
 				(font
@@ -15805,7 +16568,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "667-ERA-1AEB103C "
+		(property "MPN" "708-RNCE0603BTE10K0 "
 			(at 198.12 125.73 0)
 			(effects
 				(font
@@ -15950,7 +16713,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.mouser.de/ProductDetail/Panasonic/ERA-1AEB512C?qs=kmv%2FWw32SUPxoa66rYctCQ%3D%3D"
+		(property "Link" "https://www.mouser.de/ProductDetail/Vishay-Beyschlag/MCT06030C5101FPW00?qs=17u8i%2FzlE89RJasGspXYBA%3D%3D"
 			(at 267.97 201.93 0)
 			(effects
 				(font
@@ -15959,7 +16722,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" " Panasonic "
+		(property "MF" "Vishay / Beyschlag "
 			(at 267.97 201.93 0)
 			(effects
 				(font
@@ -15968,7 +16731,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "ERA-1AEB512C "
+		(property "MP" " MCT06030C5101FPW00 "
 			(at 267.97 201.93 0)
 			(effects
 				(font
@@ -15977,7 +16740,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "667-ERA-1AEB512C "
+		(property "MPN" "594-MCT06030C5101FPW "
 			(at 267.97 201.93 0)
 			(effects
 				(font
@@ -16320,7 +17083,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.mouser.de/ProductDetail/Panasonic/ERA-1AEB103C?qs=6%252Bc%252B2ke79U4Rqou4jG9qiw%3D%3D"
+		(property "Link" "https://www.mouser.de/ProductDetail/SEI-Stackpole/RNCE0603BTE10K0?qs=efUn273yAhfamz7JFGXL1Q%3D%3D"
 			(at 111.76 219.71 0)
 			(effects
 				(font
@@ -16329,7 +17092,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" " Panasonic "
+		(property "MF" "SEI Stackpole "
 			(at 111.76 219.71 0)
 			(effects
 				(font
@@ -16338,7 +17101,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "ERA-1AEB103C "
+		(property "MP" "RNCE0603BTE10K0 "
 			(at 111.76 219.71 0)
 			(effects
 				(font
@@ -16347,7 +17110,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "667-ERA-1AEB103C "
+		(property "MPN" "708-RNCE0603BTE10K0 "
 			(at 111.76 219.71 0)
 			(effects
 				(font
@@ -16425,7 +17188,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.mouser.de/ProductDetail/Panasonic/ERA-1AEB103C?qs=6%252Bc%252B2ke79U4Rqou4jG9qiw%3D%3D"
+		(property "Link" "https://www.mouser.de/ProductDetail/SEI-Stackpole/RNCE0603BTE10K0?qs=efUn273yAhfamz7JFGXL1Q%3D%3D"
 			(at 236.22 158.75 0)
 			(effects
 				(font
@@ -16434,7 +17197,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" " Panasonic "
+		(property "MF" "SEI Stackpole "
 			(at 236.22 158.75 0)
 			(effects
 				(font
@@ -16443,7 +17206,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "ERA-1AEB103C "
+		(property "MP" "RNCE0603BTE10K0 "
 			(at 236.22 158.75 0)
 			(effects
 				(font
@@ -16452,7 +17215,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "667-ERA-1AEB103C "
+		(property "MPN" "708-RNCE0603BTE10K0 "
 			(at 236.22 158.75 0)
 			(effects
 				(font
@@ -18696,7 +19459,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.mouser.de/ProductDetail/KOA-Speer/RN73H1ETTP4701D25?qs=9tvNVxbbcEqGYY49eq7YbA%3D%3D"
+		(property "Link" "https://www.mouser.de/ProductDetail/Susumu/RG1608N-472-W-T5?qs=v5GkGT6DDHgtQLxnmBipeQ%3D%3D"
 			(at 57.15 46.99 0)
 			(effects
 				(font
@@ -18705,7 +19468,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "KOA Speer "
+		(property "MF" "Susumu "
 			(at 57.15 46.99 0)
 			(effects
 				(font
@@ -18714,7 +19477,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "RN73H1ETTP4701D25 "
+		(property "MP" " RG1608N-472-W-T5 "
 			(at 57.15 46.99 0)
 			(effects
 				(font
@@ -18723,7 +19486,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "660-RN73H1ETP4701D25 "
+		(property "MPN" "754-RG1608N-472-WT5 "
 			(at 57.15 46.99 0)
 			(effects
 				(font
@@ -19282,6 +20045,42 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "will not be populated and soldered by customer"
+			(at 383.54 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "-"
+			(at 383.54 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "-"
+			(at 383.54 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "-"
+			(at 383.54 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "30e1ff1b-bf17-45c2-aaca-0e6a24486872")
 		)
@@ -19693,7 +20492,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.mouser.de/ProductDetail/Panasonic/ERA-1AEB512C?qs=kmv%2FWw32SUPxoa66rYctCQ%3D%3D"
+		(property "Link" "https://www.mouser.de/ProductDetail/Vishay-Beyschlag/MCT06030C5101FPW00?qs=17u8i%2FzlE89RJasGspXYBA%3D%3D"
 			(at 335.28 186.69 0)
 			(effects
 				(font
@@ -19702,7 +20501,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" " Panasonic "
+		(property "MF" "Vishay / Beyschlag "
 			(at 335.28 186.69 0)
 			(effects
 				(font
@@ -19711,7 +20510,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "ERA-1AEB512C "
+		(property "MP" " MCT06030C5101FPW00 "
 			(at 335.28 186.69 0)
 			(effects
 				(font
@@ -19720,7 +20519,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "667-ERA-1AEB512C "
+		(property "MPN" "594-MCT06030C5101FPW "
 			(at 335.28 186.69 0)
 			(effects
 				(font
@@ -19797,7 +20596,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.mouser.de/ProductDetail/Panasonic/ERA-1AEB103C?qs=6%252Bc%252B2ke79U4Rqou4jG9qiw%3D%3D"
+		(property "Link" "https://www.mouser.de/ProductDetail/SEI-Stackpole/RNCE0603BTE10K0?qs=efUn273yAhfamz7JFGXL1Q%3D%3D"
 			(at 189.23 147.32 0)
 			(effects
 				(font
@@ -19806,7 +20605,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" " Panasonic "
+		(property "MF" "SEI Stackpole "
 			(at 189.23 147.32 0)
 			(effects
 				(font
@@ -19815,7 +20614,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "ERA-1AEB103C "
+		(property "MP" "RNCE0603BTE10K0 "
 			(at 189.23 147.32 0)
 			(effects
 				(font
@@ -19824,7 +20623,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "667-ERA-1AEB103C "
+		(property "MPN" "708-RNCE0603BTE10K0 "
 			(at 189.23 147.32 0)
 			(effects
 				(font
@@ -19902,7 +20701,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.mouser.de/ProductDetail/Panasonic/ERA-1AEB103C?qs=6%252Bc%252B2ke79U4Rqou4jG9qiw%3D%3D"
+		(property "Link" "https://www.mouser.de/ProductDetail/SEI-Stackpole/RNCE0603BTE10K0?qs=efUn273yAhfamz7JFGXL1Q%3D%3D"
 			(at 215.9 179.07 0)
 			(effects
 				(font
@@ -19911,7 +20710,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" " Panasonic "
+		(property "MF" "SEI Stackpole "
 			(at 215.9 179.07 0)
 			(effects
 				(font
@@ -19920,7 +20719,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "ERA-1AEB103C "
+		(property "MP" "RNCE0603BTE10K0 "
 			(at 215.9 179.07 0)
 			(effects
 				(font
@@ -19929,7 +20728,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "667-ERA-1AEB103C "
+		(property "MPN" "708-RNCE0603BTE10K0 "
 			(at 215.9 179.07 0)
 			(effects
 				(font

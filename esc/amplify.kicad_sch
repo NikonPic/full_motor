@@ -2944,7 +2944,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.mouser.de/ProductDetail/Panasonic/ERA-1AEB103C?qs=6%252Bc%252B2ke79U4Rqou4jG9qiw%3D%3D"
+		(property "Link" "https://www.mouser.de/ProductDetail/SEI-Stackpole/RNCE0603BTE10K0?qs=efUn273yAhfamz7JFGXL1Q%3D%3D"
 			(at 177.8 115.57 0)
 			(effects
 				(font
@@ -2953,7 +2953,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" " Panasonic "
+		(property "MF" "SEI Stackpole "
 			(at 177.8 115.57 0)
 			(effects
 				(font
@@ -2962,7 +2962,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "ERA-1AEB103C "
+		(property "MP" "RNCE0603BTE10K0 "
 			(at 177.8 115.57 0)
 			(effects
 				(font
@@ -2971,7 +2971,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "667-ERA-1AEB103C "
+		(property "MPN" "708-RNCE0603BTE10K0 "
 			(at 177.8 115.57 0)
 			(effects
 				(font
@@ -3280,7 +3280,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.mouser.de/ProductDetail/Panasonic/ERA-1AEB103C?qs=6%252Bc%252B2ke79U4Rqou4jG9qiw%3D%3D"
+		(property "Link" "https://www.mouser.de/ProductDetail/SEI-Stackpole/RNCE0603BTE10K0?qs=efUn273yAhfamz7JFGXL1Q%3D%3D"
 			(at 177.8 107.95 0)
 			(effects
 				(font
@@ -3289,7 +3289,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" " Panasonic "
+		(property "MF" "SEI Stackpole "
 			(at 177.8 107.95 0)
 			(effects
 				(font
@@ -3298,7 +3298,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "ERA-1AEB103C "
+		(property "MP" "RNCE0603BTE10K0 "
 			(at 177.8 107.95 0)
 			(effects
 				(font
@@ -3307,7 +3307,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "667-ERA-1AEB103C "
+		(property "MPN" "708-RNCE0603BTE10K0 "
 			(at 177.8 107.95 0)
 			(effects
 				(font

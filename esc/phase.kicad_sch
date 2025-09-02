@@ -3358,7 +3358,7 @@
 				)
 			)
 		)
-		(property "Value" "SiR182DP-T1-RE3"
+		(property "Value" "SIR180DP-T1-RE3"
 			(at 142.24 97.79 0)
 			(effects
 				(font
@@ -3465,7 +3465,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.mouser.de/ProductDetail/Vishay-Siliconix/SIR182DP-T1-RE3?qs=BZBei1rCqCAnM3726exXMw%3D%3D"
+		(property "Link" "https://www.mouser.de/ProductDetail/Vishay-Siliconix/SIR180DP-T1-RE3?qs=lYGu3FyN48fOYZK9fT%252B0jA%3D%3D"
 			(at 129.54 102.87 0)
 			(effects
 				(font
@@ -3483,7 +3483,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "SIR182DP-T1-RE3 "
+		(property "MP" " SIR180DP-T1-RE3 "
 			(at 129.54 102.87 0)
 			(effects
 				(font
@@ -3492,7 +3492,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "78-SIR182DP-T1-RE3 "
+		(property "MPN" "78-SIR180DP-T1-RE3 "
 			(at 129.54 102.87 0)
 			(effects
 				(font
@@ -3595,7 +3595,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.mouser.de/ProductDetail/Susumu/RG0603P-101-D-T10?qs=amGC7iS6iy8p2KCMQy1Fkw%3D%3D"
+		(property "Link" "https://www.mouser.de/ProductDetail/SEI-Stackpole/RNCE0603BTE100R?qs=efUn273yAhcgM9EQ1Aecug%3D%3D"
 			(at 106.68 90.17 0)
 			(effects
 				(font
@@ -3604,7 +3604,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" " Susumu "
+		(property "MF" " SEI Stackpole "
 			(at 106.68 90.17 0)
 			(effects
 				(font
@@ -3613,7 +3613,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "RG0603P-101-D-T10 "
+		(property "MP" " RNCE0603BTE100R "
 			(at 106.68 90.17 0)
 			(effects
 				(font
@@ -3622,7 +3622,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "754-RG0603P-101-D "
+		(property "MPN" "708-RNCE0603BTE100R "
 			(at 106.68 90.17 0)
 			(effects
 				(font
@@ -4011,7 +4011,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.mouser.de/ProductDetail/KOA-Speer/RN73H1ETTP4701D25?qs=9tvNVxbbcEqGYY49eq7YbA%3D%3D"
+		(property "Link" "https://www.mouser.de/ProductDetail/Susumu/RG1608N-472-W-T5?qs=v5GkGT6DDHgtQLxnmBipeQ%3D%3D"
 			(at 201.93 100.33 0)
 			(effects
 				(font
@@ -4020,7 +4020,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "KOA Speer "
+		(property "MF" "Susumu "
 			(at 201.93 100.33 0)
 			(effects
 				(font
@@ -4029,7 +4029,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "RN73H1ETTP4701D25 "
+		(property "MP" " RG1608N-472-W-T5 "
 			(at 201.93 100.33 0)
 			(effects
 				(font
@@ -4038,7 +4038,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "660-RN73H1ETP4701D25 "
+		(property "MPN" "754-RG1608N-472-WT5 "
 			(at 201.93 100.33 0)
 			(effects
 				(font
@@ -4647,7 +4647,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.mouser.de/ProductDetail/Susumu/RG0603P-101-D-T10?qs=amGC7iS6iy8p2KCMQy1Fkw%3D%3D"
+		(property "Link" "https://www.mouser.de/ProductDetail/SEI-Stackpole/RNCE0603BTE100R?qs=efUn273yAhcgM9EQ1Aecug%3D%3D"
 			(at 106.68 95.25 0)
 			(effects
 				(font
@@ -4656,7 +4656,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" " Susumu "
+		(property "MF" " SEI Stackpole "
 			(at 106.68 95.25 0)
 			(effects
 				(font
@@ -4665,7 +4665,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "RG0603P-101-D-T10 "
+		(property "MP" " RNCE0603BTE100R "
 			(at 106.68 95.25 0)
 			(effects
 				(font
@@ -4674,7 +4674,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "754-RG0603P-101-D "
+		(property "MPN" "708-RNCE0603BTE100R "
 			(at 106.68 95.25 0)
 			(effects
 				(font
@@ -5060,7 +5060,7 @@
 				)
 			)
 		)
-		(property "Value" "SiR182DP-T1-RE3"
+		(property "Value" "SIR180DP-T1-RE3"
 			(at 142.24 66.04 0)
 			(effects
 				(font
@@ -5167,7 +5167,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.mouser.de/ProductDetail/Vishay-Siliconix/SIR182DP-T1-RE3?qs=BZBei1rCqCAnM3726exXMw%3D%3D"
+		(property "Link" "https://www.mouser.de/ProductDetail/Vishay-Siliconix/SIR180DP-T1-RE3?qs=lYGu3FyN48fOYZK9fT%252B0jA%3D%3D"
 			(at 129.54 71.12 0)
 			(effects
 				(font
@@ -5185,7 +5185,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "SIR182DP-T1-RE3 "
+		(property "MP" " SIR180DP-T1-RE3 "
 			(at 129.54 71.12 0)
 			(effects
 				(font
@@ -5194,7 +5194,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "78-SIR182DP-T1-RE3 "
+		(property "MPN" "78-SIR180DP-T1-RE3 "
 			(at 129.54 71.12 0)
 			(effects
 				(font
