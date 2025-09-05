@@ -11147,7 +11147,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:SMBJ18A")
-		(at 34.29 62.23 90)
+		(at 34.29 46.99 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11156,25 +11156,25 @@
 		(fields_autoplaced yes)
 		(uuid "1923e470-f69e-45ce-9f74-26d21c52d291")
 		(property "Reference" "D2"
-			(at 38.1 53.8479 90)
+			(at 38.1 52.8319 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "SMBJ188A"
-			(at 38.1 56.3879 90)
+			(at 38.1 55.3719 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "SamacSys_Parts:DIOM5436X244N"
-			(at 127.94 52.07 0)
+			(at -59.36 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11184,7 +11184,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/88392/smbj.pdf"
-			(at 227.94 52.07 0)
+			(at -159.36 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11194,7 +11194,7 @@
 			)
 		)
 		(property "Description" "SMBJ18A"
-			(at 34.29 62.23 0)
+			(at 34.29 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11203,7 +11203,7 @@
 			)
 		)
 		(property "Height" "2.44"
-			(at 427.94 52.07 0)
+			(at -359.36 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11213,7 +11213,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Vishay"
-			(at 527.94 52.07 0)
+			(at -459.36 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11223,7 +11223,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SMBJ18A"
-			(at 627.94 52.07 0)
+			(at -559.36 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11233,7 +11233,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 727.94 52.07 0)
+			(at -659.36 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11243,7 +11243,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 827.94 52.07 0)
+			(at -759.36 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11253,7 +11253,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 927.94 52.07 0)
+			(at -859.36 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11263,7 +11263,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 1027.94 52.07 0)
+			(at -959.36 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11273,7 +11273,7 @@
 			)
 		)
 		(property "Link" "https://www.mouser.de/ProductDetail/Littelfuse/SMBJ188A?qs=zHiv0nsVGmqpK5qihuf5vg%3D%3D"
-			(at 34.29 62.23 0)
+			(at 34.29 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11282,7 +11282,7 @@
 			)
 		)
 		(property "MF" " Littelfuse "
-			(at 34.29 62.23 0)
+			(at 34.29 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11291,7 +11291,7 @@
 			)
 		)
 		(property "MP" "SMBJ188A "
-			(at 34.29 62.23 0)
+			(at 34.29 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11300,7 +11300,7 @@
 			)
 		)
 		(property "MPN" "576-SMBJ188A "
-			(at 34.29 62.23 0)
+			(at 34.29 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)

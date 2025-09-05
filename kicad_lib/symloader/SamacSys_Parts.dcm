@@ -1,0 +1,93 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP MA702GQ-P
+D Board Mount Hall Effect / Magnetic Sensors 12-bit, digital, contactless angle sensor with ABZ incremental & PWM outputs
+K
+F https://www.monolithicpower.com/pub/media/document/m/a/ma702_r1.0.pdf
+$ENDCMP
+#
+$CMP SiR180DP-T1-RE3
+D VISHAY - SIR180DP-T1-RE3 - MOSFET, N-CH, 60V, 60A, POWERPAK SO
+K
+F https://www.vishay.com/docs/76233/sir180dp.pdf
+$ENDCMP
+#
+$CMP INA180A3IDBVT
+D 26V, 350kHz Bandwidth, Low- or High-Side Voltage Output Current Sense Amplifier
+K
+F http://www.ti.com/lit/gpn/ina180
+$ENDCMP
+#
+$CMP SMBJ18A
+D SMBJ18A
+K
+F http://www.vishay.com/docs/88392/smbj.pdf
+$ENDCMP
+#
+$CMP KLDHCX-0202-BC-1
+D DC Power Connectors POWER JACK 2.5MM DIA CRIMP LEAD HIGH-CURR
+K
+F http://www.kycon.com/2013Catalogpage/DC%20Power/KLDHCX-0202.pdf
+$ENDCMP
+#
+$CMP AD8221ARMZ
+D Instrumentation Amplifiers Precision Instrumentation Amplifier
+K
+F https://componentsearchengine.com/Datasheets/2/AD8221ARMZ.pdf
+$ENDCMP
+#
+$CMP IR2103STRPBF
+D Gate Drivers Half Bridge Driver 520ns
+K
+F https://www.infineon.com/cms/en/product/power/gate-driver-ics/?
+$ENDCMP
+#
+$CMP NX2016SA-24M-EXS00A-CS08891
+D Crystals CRYSTAL 24MHZ 6PF SMD
+K
+F http://www.ndk.com/images/products/catalog/c_NX2016SA_e.pdf
+$ENDCMP
+#
+$CMP MMZ1005F181ETD25
+D Chip Beads, |Z|=180? at 100MHz, L x W x T :
+K
+F https://product.tdk.com/system/files/dam/doc/product/emc/emc/beads/catalog/beads_automotive_signal_mmz1005-e_en.pdf
+$ENDCMP
+#
+$CMP DLF162500LT-5028A1
+D Signal Conditioning LTCC LOW PASS FLTR 2400-2500MHz
+K
+F https://product.tdk.com/system/files/dam/doc/product/rf/rf/filter/catalog/rf_lpf_dlf162500lt-5028a1_en.pdf
+$ENDCMP
+#
+$CMP KY_DDLN31.23-5G8H-36-J3T3-200-R18
+D Mid-Power LEDs - Single Color
+K
+F https://look.ams-osram.com/m/16574dea4c7b8b98/original/KY-DDLN31-23.pdf
+$ENDCMP
+#
+$CMP PA4343.682ANLT
+D PULSE ELECTRONICS - PA4343.682ANLT - INDUCTOR, SHIELDED, AEC-Q200, 6.8UH, 14A
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/DKDS-10/182652.pdf
+$ENDCMP
+#
+$CMP SMBJ18A-13-F
+D Diodes Inc SMBJ18A-13-F Uni-Directional TVS Diode, 600W peak, 2-Pin SMB
+K
+F http://uk.rs-online.com/web/p/products/1697414
+$ENDCMP
+#
+$CMP USB4510-03-1-A
+D USB Connectors USB C Rec 16P 3u" Mid Mnt 1.6mm O-set SMT L = 6.5mm S-Spring
+K
+F https://gct.co/files/drawings/usb4510.pdf
+$ENDCMP
+#
+#End Doc Library

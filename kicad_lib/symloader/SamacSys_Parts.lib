@@ -1,0 +1,406 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model NE555DR
+#/6648/2/2.37/8/4/Integrated Circuit
+DEF NE555DR IC 0 30 Y Y 1 F N
+F0 "IC" 1050 600 50 H V L CNN
+F1 "NE555DR" 1050 500 50 H V L CNN
+F2 "SOIC127P600X175-8N" 1050 400 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/ne555.pdf" 1050 300 50 H I L CNN
+F4 "Single Precision Timer" 1050 200 50 H I L CNN "Description"
+F5 "1.75" 1050 100 50 H I L CNN "Height"
+F6 "Texas Instruments" 1050 0 50 H I L CNN "Manufacturer_Name"
+F7 "NE555DR" 1050 -100 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-NE555DR" 1050 -200 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-NE555DR" 1050 -300 50 H I L CNN "Mouser Price/Stock"
+F10 "1218414" 1050 -400 50 H I L CNN "RS Part Number"
+F11 "http//uk.rs-online.com/web/p/products/1218414" 1050 -500 50 H I L CNN "RS Price/Stock"
+DRAW
+X GND 1 600 -1000 200 U 50 50 0 0 B
+X TRIG 2 0 -400 200 R 50 50 0 0 B
+X OUT 3 1200 -200 200 L 50 50 0 0 B
+X ~RESET 4 0 0 200 R 50 50 0 0 B
+X CONT 5 500 600 200 D 50 50 0 0 B
+X THRES 6 0 -300 200 R 50 50 0 0 B
+X DISCH 7 0 -100 200 R 50 50 0 0 B
+X VCC 8 700 600 200 D 50 50 0 0 B
+P 5 0 1 6 200 400 1000 400 1000 -800 200 -800 200 400 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model MA702GQ-P
+#/1121425/1571544/2.50/17/3/Integrated Circuit
+DEF MA702GQ-P IC 0 30 Y Y 1 F N
+F0 "IC" 1050 700 50 H V L CNN
+F1 "MA702GQ-P" 1050 600 50 H V L CNN
+F2 "QFN50P300X300X100-17N-D" 1050 500 50 H I L CNN
+F3 "https://www.monolithicpower.com/pub/media/document/m/a/ma702_r1.0.pdf" 1050 400 50 H I L CNN
+F4 "Board Mount Hall Effect / Magnetic Sensors 12-bit, digital, contactless angle sensor with ABZ incremental & PWM outputs" 1050 300 50 H I L CNN "Description"
+F5 "1" 1050 200 50 H I L CNN "Height"
+F6 "Monolithic Power Systems (MPS)" 1050 100 50 H I L CNN "Manufacturer_Name"
+F7 "MA702GQ-P" 1050 0 50 H I L CNN "Manufacturer_Part_Number"
+F8 "946-MA702GQ-P" 1050 -100 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Monolithic-Power-Systems-MPS/MA702GQ-P?qs=YCa%2FAAYMW00G2PoyJvHwYg%3D%3D" 1050 -200 50 H I L CNN "Mouser Price/Stock"
+F10 "" 1050 -300 50 H I L CNN "Arrow Part Number"
+F11 "" 1050 -400 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X SSD 1 0 0 200 R 50 50 0 0 P
+X A 2 0 -100 200 R 50 50 0 0 P
+X Z 3 0 -200 200 R 50 50 0 0 P
+X MOSI 4 0 -300 200 R 50 50 0 0 P
+X CS 5 400 -1000 200 U 50 50 0 0 P
+X B 6 500 -1000 200 U 50 50 0 0 P
+X MISO 7 600 -1000 200 U 50 50 0 0 P
+X GND_1 8 700 -1000 200 U 50 50 0 0 P
+X SCLK 12 1200 0 200 L 50 50 0 0 P
+X MGL 11 1200 -100 200 L 50 50 0 0 P
+X TEST 10 1200 -200 200 L 50 50 0 0 P
+X PWM 9 1200 -300 200 L 50 50 0 0 P
+X GND_2 17 400 700 200 D 50 50 0 0 P
+X MGH 16 500 700 200 D 50 50 0 0 P
+X SSCK 15 600 700 200 D 50 50 0 0 P
+X NC 14 700 700 200 D 50 50 0 0 N
+X VDD 13 800 700 200 D 50 50 0 0 P
+P 5 0 1 6 200 500 1000 500 1000 -800 200 -800 200 500 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model SiR180DP-T1-RE3
+#/1958114/1571544/2.50/8/4/MOSFET (N-Channel)
+DEF SiR180DP-T1-RE3 Q 0 30 Y Y 1 F N
+F0 "Q" 850 300 50 H V L CNN
+F1 "SiR180DP-T1-RE3" 850 200 50 H V L CNN
+F2 "SI7141DPT1GE3" 850 100 50 H I L CNN
+F3 "https://www.vishay.com/docs/76233/sir180dp.pdf" 850 0 50 H I L CNN
+F4 "VISHAY - SIR180DP-T1-RE3 - MOSFET, N-CH, 60V, 60A, POWERPAK SO" 850 -100 50 H I L CNN "Description"
+F5 "" 850 -200 50 H I L CNN "Height"
+F6 "Vishay" 850 -300 50 H I L CNN "Manufacturer_Name"
+F7 "SiR180DP-T1-RE3" 850 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "78-SIR180DP-T1-RE3" 850 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Vishay-Siliconix/SIR180DP-T1-RE3?qs=lYGu3FyN48fOYZK9fT%252B0jA%3D%3D" 850 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "SIR180DP-T1-RE3" 850 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/sir180dp-t1-re3/vishay" 850 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X S_1 1 0 0 200 R 50 50 0 0 P
+X S_2 2 0 -100 200 R 50 50 0 0 P
+X S_3 3 0 -200 200 R 50 50 0 0 P
+X G 4 0 -300 200 R 50 50 0 0 P
+X D_1 5 1000 0 200 L 50 50 0 0 P
+X D_2 6 1000 -100 200 L 50 50 0 0 P
+X D_3 7 1000 -200 200 L 50 50 0 0 P
+X D_4 8 1000 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model INA180A3IDBVT
+#/746311/1571544/2.50/5/3/Integrated Circuit
+DEF INA180A3IDBVT IC 0 30 Y Y 1 F N
+F0 "IC" 850 300 50 H V L CNN
+F1 "INA180A3IDBVT" 850 200 50 H V L CNN
+F2 "SOT95P280X145-5N" 850 100 50 H I L CNN
+F3 "http://www.ti.com/lit/gpn/ina180" 850 0 50 H I L CNN
+F4 "26V, 350kHz Bandwidth, Low- or High-Side Voltage Output Current Sense Amplifier" 850 -100 50 H I L CNN "Description"
+F5 "1.45" 850 -200 50 H I L CNN "Height"
+F6 "Texas Instruments" 850 -300 50 H I L CNN "Manufacturer_Name"
+F7 "INA180A3IDBVT" 850 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-INA180A3IDBVT" 850 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/INA180A3IDBVT?qs=5aG0NVq1C4yYIoZxdnrAcQ%3D%3D" 850 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "INA180A3IDBVT" 850 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/ina180a3idbvt/texas-instruments?utm_currency=USD&region=europe" 850 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X IN+ 1 0 0 200 R 50 50 0 0 P
+X GND 2 0 -100 200 R 50 50 0 0 P
+X IN- 3 0 -200 200 R 50 50 0 0 P
+X OUT 4 1000 0 200 L 50 50 0 0 P
+X VS 5 1000 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model SMBJ18A
+#/1169077/1571544/2.50/2/4/TVS Diode (Uni-directional)
+DEF SMBJ18A D 0 30 Y Y 1 F N
+F0 "D" 400 350 50 H V L BNN
+F1 "SMBJ18A" 400 250 50 H V L BNN
+F2 "DIOM5436X244N" 400 150 50 H I L BNN
+F3 "http://www.vishay.com/docs/88392/smbj.pdf" 400 50 50 H I L BNN
+F4 "SMBJ18A" 400 -50 50 H I L BNN "Description"
+F5 "2.44" 400 -150 50 H I L BNN "Height"
+F6 "Vishay" 400 -250 50 H I L BNN "Manufacturer_Name"
+F7 "SMBJ18A" 400 -350 50 H I L BNN "Manufacturer_Part_Number"
+F8 "" 400 -450 50 H I L BNN "Mouser Part Number"
+F9 "" 400 -550 50 H I L BNN "Mouser Price/Stock"
+F10 "" 400 -650 50 H I L BNN "Arrow Part Number"
+F11 "" 400 -750 50 H I L BNN "Arrow Price/Stock"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 600 0 200 L 50 50 0 0 P
+P 4 0 1 6 200 0 400 100 400 -100 200 0 N
+P 2 0 1 6 200 -80 240 -100 N
+P 2 0 1 6 200 -80 200 80 N
+P 2 0 1 6 160 100 200 80 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model KLDHCX-0202-BC-1
+#/2220982/1571544/2.50/3/4/Connector
+DEF KLDHCX-0202-BC-1 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "KLDHCX-0202-BC-1" 650 200 50 H V L CNN
+F2 "KLDHCX0202BC1" 650 100 50 H I L CNN
+F3 "http://www.kycon.com/2013Catalogpage/DC%20Power/KLDHCX-0202.pdf" 650 0 50 H I L CNN
+F4 "DC Power Connectors POWER JACK 2.5MM DIA CRIMP LEAD HIGH-CURR" 650 -100 50 H I L CNN "Description"
+F5 "11" 650 -200 50 H I L CNN "Height"
+F6 "Kycon" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "KLDHCX-0202-BC-1" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "806-KLDHCX-0202-BC-1" 650 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Kycon/KLDHCX-0202-BC-1?qs=T3oQrply3y%2Fc5isYEQ6gcA%3D%3D" 650 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 650 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 650 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X 1 1 800 -100 200 L 50 50 0 0 P
+X 2 2 800 0 200 L 50 50 0 0 P
+X 3 3 0 0 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model AD8221ARMZ
+#/4635330/1571544/2.50/8/3/Integrated Circuit
+DEF AD8221ARMZ IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "AD8221ARMZ" 950 200 50 H V L CNN
+F2 "SOP65P490X110-8N" 950 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/2/AD8221ARMZ.pdf" 950 0 50 H I L CNN
+F4 "Instrumentation Amplifiers Precision Instrumentation Amplifier" 950 -100 50 H I L CNN "Description"
+F5 "1.1" 950 -200 50 H I L CNN "Height"
+F6 "Analog Devices" 950 -300 50 H I L CNN "Manufacturer_Name"
+F7 "AD8221ARMZ" 950 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "584-AD8221ARMZ" 950 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Analog-Devices/AD8221ARMZ?qs=%2FtpEQrCGXCxTYonUPIPyhA%3D%3D" 950 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "AD8221ARMZ" 950 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/ad8221armz/analog-devices?utm_currency=USD&region=europe" 950 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X -IN 1 0 0 200 R 50 50 0 0 P
+X RG_1 2 0 -100 200 R 50 50 0 0 P
+X RG_2 3 0 -200 200 R 50 50 0 0 P
+X +IN 4 0 -300 200 R 50 50 0 0 P
+X +VS 8 1100 0 200 L 50 50 0 0 P
+X VOUT 7 1100 -100 200 L 50 50 0 0 P
+X REF 6 1100 -200 200 L 50 50 0 0 P
+X -VS 5 1100 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model IR2103STRPBF
+#/956370/1571544/2.50/8/2/Integrated Circuit
+DEF IR2103STRPBF IC 0 30 Y Y 1 F N
+F0 "IC" 850 300 50 H V L CNN
+F1 "IR2103STRPBF" 850 200 50 H V L CNN
+F2 "SOIC127P600X175-8N" 850 100 50 H I L CNN
+F3 "https://www.infineon.com/cms/en/product/power/gate-driver-ics/?" 850 0 50 H I L CNN
+F4 "Gate Drivers Half Bridge Driver 520ns" 850 -100 50 H I L CNN "Description"
+F5 "1.75" 850 -200 50 H I L CNN "Height"
+F6 "Infineon" 850 -300 50 H I L CNN "Manufacturer_Name"
+F7 "IR2103STRPBF" 850 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "942-IR2103STRPBF" 850 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IR2103STRPBF?qs=2r01AXMCG3MUNnnJnNllYQ%3D%3D" 850 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "IR2103STRPBF" 850 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/ir2103strpbf/infineon-technologies-ag?utm_currency=USD&region=nac" 850 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X VCC 1 0 0 200 R 50 50 0 0 P
+X HIN 2 0 -100 200 R 50 50 0 0 P
+X ~LIN 3 0 -200 200 R 50 50 0 0 P
+X COM 4 0 -300 200 R 50 50 0 0 P
+X VB 8 1000 0 200 L 50 50 0 0 P
+X HO 7 1000 -100 200 L 50 50 0 0 P
+X VS 6 1000 -200 200 L 50 50 0 0 P
+X LO 5 1000 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model NX2016SA-24M-EXS00A-CS08891
+#/1470964/1571544/2.50/4/4/Crystal or Oscillator
+DEF NX2016SA-24M-EXS00A-CS08891 Y 0 30 Y Y 1 F N
+F0 "Y" 1150 300 50 H V L CNN
+F1 "NX2016SA-24M-EXS00A-CS08891" 1150 200 50 H V L CNN
+F2 "NX2016SA24MEXS00ACS08891" 1150 100 50 H I L CNN
+F3 "http://www.ndk.com/images/products/catalog/c_NX2016SA_e.pdf" 1150 0 50 H I L CNN
+F4 "Crystals CRYSTAL 24MHZ 6PF SMD" 1150 -100 50 H I L CNN "Description"
+F5 "0.5" 1150 -200 50 H I L CNN "Height"
+F6 "NDK" 1150 -300 50 H I L CNN "Manufacturer_Name"
+F7 "NX2016SA-24M-EXS00A-CS08891" 1150 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "344-NX2016SA24S08891" 1150 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/NDK/NX2016SA-24M-EXS00A-CS08891?qs=w%2Fv1CP2dgqoU%2FAdFbbSfhw%3D%3D" 1150 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 1150 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 1150 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X XTAL_1 1 0 -100 200 R 50 50 0 0 P
+X GND_1 2 1300 -100 200 L 50 50 0 0 P
+X XTAL_2 3 1300 0 200 L 50 50 0 0 P
+X GND_2 4 0 0 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 1100 100 1100 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model MMZ1005F181ETD25
+#/14016831/1571544/2.50/2/2/Ferrite Bead
+DEF MMZ1005F181ETD25 FB 0 30 Y Y 1 F N
+F0 "FB" 650 300 50 H V L CNN
+F1 "MMZ1005F181ETD25" 650 200 50 H V L CNN
+F2 "BEADC1005X55N" 650 100 50 H I L CNN
+F3 "https://product.tdk.com/system/files/dam/doc/product/emc/emc/beads/catalog/beads_automotive_signal_mmz1005-e_en.pdf" 650 0 50 H I L CNN
+F4 "Chip Beads, |Z|=180? at 100MHz, L x W x T :" 650 -100 50 H I L CNN "Description"
+F5 "0.55" 650 -200 50 H I L CNN "Height"
+F6 "TDK" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "MMZ1005F181ETD25" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "810-MMZ1005F181ETD25" 650 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/TDK/MMZ1005F181ETD25?qs=5aG0NVq1C4zmqj9hx2f6tw%3D%3D" 650 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 650 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 650 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model DLF162500LT-5028A1
+#/1645012/1571544/2.50/4/2/Filter
+DEF DLF162500LT-5028A1 FL 0 30 Y Y 1 F N
+F0 "FL" 850 700 50 H V L CNN
+F1 "DLF162500LT-5028A1" 850 600 50 H V L CNN
+F2 "DLF162500LT5028A1" 850 500 50 H I L CNN
+F3 "https://product.tdk.com/system/files/dam/doc/product/rf/rf/filter/catalog/rf_lpf_dlf162500lt-5028a1_en.pdf" 850 400 50 H I L CNN
+F4 "Signal Conditioning LTCC LOW PASS FLTR 2400-2500MHz" 850 300 50 H I L CNN "Description"
+F5 "0.4" 850 200 50 H I L CNN "Height"
+F6 "TDK" 850 100 50 H I L CNN "Manufacturer_Name"
+F7 "DLF162500LT-5028A1" 850 0 50 H I L CNN "Manufacturer_Part_Number"
+F8 "810-DLF16250LT5028A1" 850 -100 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/TDK/DLF162500LT-5028A1?qs=U%2FZX79kHR%2FlwIbAISCs3qA%3D%3D" 850 -200 50 H I L CNN "Mouser Price/Stock"
+F10 "DLF162500LT-5028A1" 850 -300 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/dlf162500lt-5028a1/tdk?region=europe" 850 -400 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X IN 1 0 0 200 R 50 50 0 0 P
+X GND_1 2 500 -700 200 U 50 50 0 0 P
+X OUT 3 1000 0 200 L 50 50 0 0 P
+X GND_2 4 500 700 200 D 50 50 0 0 P
+P 5 0 1 6 200 500 800 500 800 -500 200 -500 200 500 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model KY_DDLN31.23-5G8H-36-J3T3-200-R18
+#/19696250/1571544/2.50/4/4/LED
+DEF KY_DDLN31.23-5G8H-36-J3T3-200-R18 LED 0 30 Y Y 1 F N
+F0 "LED" 750 300 50 H V L CNN
+F1 "KY_DDLN31.23-5G8H-36-J3T3-200-R18" 750 200 50 H V L CNN
+F2 "KYDDLN31235G8H36J3T3200R18" 750 100 50 H I L CNN
+F3 "https://look.ams-osram.com/m/16574dea4c7b8b98/original/KY-DDLN31-23.pdf" 750 0 50 H I L CNN
+F4 "Mid-Power LEDs - Single Color" 750 -100 50 H I L CNN "Description"
+F5 "0.635" 750 -200 50 H I L CNN "Height"
+F6 "ams OSRAM" 750 -300 50 H I L CNN "Manufacturer_Name"
+F7 "KY DDLN31.23-5G8H-36-J3T3-200-R18" 750 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "720-KY31235G8H36J3T3" 750 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/ams-OSRAM/KY-DDLN31.23-5G8H-36-J3T3-200-R18?qs=i8QVZAFTkqQ3Z%252BOeIuF0hA%3D%3D" 750 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 750 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 750 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X K_1 1 0 -200 200 R 50 50 0 0 P
+X A_1 2 0 -100 200 R 50 50 0 0 P
+X K_2 3 0 -300 200 R 50 50 0 0 P
+X A_2 4 0 0 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 700 100 700 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model PA4343.682ANLT
+#/1478776/1571544/2.50/2/3/Inductor
+DEF PA4343.682ANLT L 0 30 Y Y 1 F N
+F0 "L" 650 250 50 H V L CNN
+F1 "PA4343.682ANLT" 650 150 50 H V L CNN
+F2 "INDPM135126X650N" 650 50 50 H I L CNN
+F3 "https://datasheet.datasheetarchive.com/originals/distributors/DKDS-10/182652.pdf" 650 -50 50 H I L CNN
+F4 "PULSE ELECTRONICS - PA4343.682ANLT - INDUCTOR, SHIELDED, AEC-Q200, 6.8UH, 14A" 650 -150 50 H I L CNN "Description"
+F5 "6.5" 650 -250 50 H I L CNN "Height"
+F6 "PULSE" 650 -350 50 H I L CNN "Manufacturer_Name"
+F7 "PA4343.682ANLT" 650 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "673-PA4343.682ANLT" 650 -550 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Pulse-Electronics/PA4343.682ANLT?qs=chTDxNqvsymdGvgwnDGbsw%3D%3D" 650 -650 50 H I L CNN "Mouser Price/Stock"
+F10 "PA4343.682ANLT" 650 -750 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/pa4343.682anlt/pulse-electronics-corporation" 650 -850 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 800 0 200 L 50 50 0 0 P
+A 250 -2 50 1777 -23 0 1 6 N 300 0 200 0
+A 350 -2 50 1777 -23 0 1 6 N 400 0 300 0
+A 450 -2 50 1777 -23 0 1 6 N 500 0 400 0
+A 550 -2 50 1777 -23 0 1 6 N 600 0 500 0
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model SMBJ18A-13-F
+#/441625/1571544/2.50/2/3/Diode ESD (Uni-directional)
+DEF SMBJ18A-13-F D 0 30 Y Y 1 F N
+F0 "D" 400 350 50 H V L CNN
+F1 "SMBJ18A-13-F" 400 250 50 H V L CNN
+F2 "DIOM5336X250N" 400 150 50 H I L CNN
+F3 "http://uk.rs-online.com/web/p/products/1697414" 400 50 50 H I L CNN
+F4 "Diodes Inc SMBJ18A-13-F Uni-Directional TVS Diode, 600W peak, 2-Pin SMB" 400 -50 50 H I L CNN "Description"
+F5 "2.5" 400 -150 50 H I L CNN "Height"
+F6 "Diodes Incorporated" 400 -250 50 H I L CNN "Manufacturer_Name"
+F7 "SMBJ18A-13-F" 400 -350 50 H I L CNN "Manufacturer_Part_Number"
+F8 "621-SMBJ18A-13-F" 400 -450 50 H I L CNN "Mouser Part Number"
+F9 "http://www.mouser.com/Search/ProductDetail.aspx?qs=gaDBXWSqsDBisKX%2fYSuPGA%3d%3d" 400 -550 50 H I L CNN "Mouser Price/Stock"
+F10 "SMBJ18A-13-F" 400 -650 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/smbj18a-13-f/diodes-incorporated?region=nac" 400 -750 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 600 0 100 L 50 50 0 0 P
+P 4 0 1 6 200 0 400 100 400 -100 200 0 N
+P 2 0 1 6 200 100 200 -100 N
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 500 0 400 0 N
+P 2 0 1 6 200 -100 260 -100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model USB4510-03-1-A
+#/15583611/1571544/2.50/16/3/Connector
+DEF USB4510-03-1-A J 0 30 Y Y 1 F N
+F0 "J" 1050 300 50 H V L CNN
+F1 "USB4510-03-1-A" 1050 200 50 H V L CNN
+F2 "USB4510031A" 1050 100 50 H I L CNN
+F3 "https://gct.co/files/drawings/usb4510.pdf" 1050 0 50 H I L CNN
+F4 "USB Connectors USB C Rec 16P 3u\" Mid Mnt 1.6mm O-set SMT L = 6.5mm S-Spring" 1050 -100 50 H I L CNN "Description"
+F5 "3.36" 1050 -200 50 H I L CNN "Height"
+F6 "GCT (GLOBAL CONNECTOR TECHNOLOGY)" 1050 -300 50 H I L CNN "Manufacturer_Name"
+F7 "USB4510-03-1-A" 1050 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "640-USB4510031A" 1050 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/GCT/USB4510-03-1-A?qs=7D1LtPJG0i3iod3O3OZ7LA%3D%3D" 1050 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 1050 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 1050 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X GND_1 A1 0 0 200 R 50 50 0 0 P
+X VBUS_1 A4 0 -100 200 R 50 50 0 0 P
+X CC1 A5 0 -200 200 R 50 50 0 0 P
+X DP1 A6 0 -300 200 R 50 50 0 0 P
+X DN1 A7 0 -400 200 R 50 50 0 0 P
+X SBU1 A8 0 -500 200 R 50 50 0 0 P
+X VBUS_2 A9 0 -600 200 R 50 50 0 0 P
+X GND_2 A12 0 -700 200 R 50 50 0 0 P
+X CC2 B5 1200 0 200 L 50 50 0 0 P
+X DP2 B6 1200 -100 200 L 50 50 0 0 P
+X DN2 B7 1200 -200 200 L 50 50 0 0 P
+X SBU2 B8 1200 -300 200 L 50 50 0 0 P
+X MH1 MH1 1200 -400 200 L 50 50 0 0 P
+X MH2 MH2 1200 -500 200 L 50 50 0 0 P
+X MH3 MH3 1200 -600 200 L 50 50 0 0 P
+X MH4 MH4 1200 -700 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -800 200 -800 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library
